@@ -89,6 +89,7 @@ const game = {
                 }
             }),
     },
+    start: () => {},
     achievements: [
         new Achievement("You played!", "If you dont have this, you shouldn't exist", "&omega;", () => true),
         new Achievement("Aleph-0", "Start gaining aleph", "&aleph;", () => game.alephLayer.isUnlocked()),
