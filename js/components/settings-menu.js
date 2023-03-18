@@ -16,6 +16,10 @@ Vue.component("settings-menu", {
         this.$refs.exportBox.onfocus = e => textBoxFocused = true;
         this.$refs.exportBox.onblur = e => textBoxFocused = false;
     },
+    start: function()
+    {
+
+    },
     beforeDestroy: function()
     {
         this.$refs.exportBox.onfocus = null;
